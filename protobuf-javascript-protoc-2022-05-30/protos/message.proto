@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "com.mattwelke.gaprototest.server.proto";
+
+import "google/protobuf/wrappers.proto";
+
+message SearchRequest {
+  string cid = 1;
+  string dl = 2;
+  string ua = 3;
+  string dt = 4;
+  google.protobuf.StringValue dr = 5;
+}

@@ -3,6 +3,8 @@
  */
 package vscode.gradle.protobuf.repro;
 
+import com.example.tutorial.protos.Person;
+
 public class App {
     public String getGreeting() {
         return "Hello World!";
